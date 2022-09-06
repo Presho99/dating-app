@@ -1,0 +1,103 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    margin-top: -10px;
+    width: calc(100% - 200px);
+    margin-left: 192px;
+   
+    -webkit-box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
+-moz-box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
+box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
+    
+   
+}
+
+.header .first{
+    display: flex;
+    width: 220px;
+    background-color: transparent;
+    justify-content: space-between;
+
+    
+}
+
+.header .first p{
+    display: flex;
+    color: #585352;
+    cursor: pointer;
+}
+
+
+.header .second{
+    display: flex;
+   
+}
+
+.header .second .search-bar{
+    width: 250px;
+    height: 40px;
+    display: flex;
+   
+    padding: 0 12px;
+    border-radius: 20px ;
+    color: #BEC0C6;
+    background-color: #D4D6DE;
+}
+
+.search-bar > input{
+    height: 30px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-left: -7px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 6px;
+    color: #585352;
+
+    
+}
+
+.search-bar button{
+    font-size: 18px;
+    height: 36px;
+    background: transparent;
+    margin-top: 4px;
+     outline: none;
+    border: none; 
+    color: #585352;
+    cursor: pointer;
+}
+
+.second button.upgrade {
+    background-color: #F05CA4;
+    color: #ffdbe6;
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header .third{
+    display: flex;
+    color: #585352;
+    
+}
