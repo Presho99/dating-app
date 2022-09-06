@@ -1,53 +1,53 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 15px;
     align-items: center;
     margin-top: -10px;
-    width: calc(100% - 200px);
-    margin-left: 192px;
-   
-    -webkit-box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
--moz-box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
-box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
-    
-   
+    width: calc(100% - 230px);
+    margin-left: 210px;
+
+    -webkit-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+
+
 }
 
-.header .first{
+.header .first {
     display: flex;
     width: 220px;
     background-color: transparent;
     justify-content: space-between;
 
-    
+
 }
 
-.header .first p{
+.header .first p {
     display: flex;
     color: #585352;
     cursor: pointer;
 }
 
 
-.header .second{
+.header .second {
     display: flex;
-   
+
 }
 
-.header .second .search-bar{
+.header .second .search-bar {
     width: 250px;
     height: 40px;
     display: flex;
-   
+
     padding: 0 12px;
-    border-radius: 20px ;
+    border-radius: 20px;
     color: #BEC0C6;
     background-color: #D4D6DE;
 }
 
-.search-bar > input{
+.search-bar>input {
     height: 30px;
     padding-right: 5px;
     margin-top: 5px;
@@ -58,17 +58,15 @@ box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
     outline: none;
     padding-left: 6px;
     color: #585352;
-
-    
 }
 
-.search-bar button{
+.search-bar button {
     font-size: 18px;
     height: 36px;
     background: transparent;
     margin-top: 4px;
-     outline: none;
-    border: none; 
+    outline: none;
+    border: none;
     color: #585352;
     cursor: pointer;
 }
@@ -87,7 +85,7 @@ box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
     cursor: pointer;
 }
 
-.header img{
+.header img {
     width: 50px;
     height: 50px;
     object-fit: cover;
@@ -96,8 +94,8 @@ box-shadow: 1px 6px 11px -6px rgba(0,0,0,0.43);
     cursor: pointer;
 }
 
-.header .third{
+.header .third {
     display: flex;
     color: #585352;
-    
+
 }
