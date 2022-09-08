@@ -1,0 +1,37 @@
+.box-one{
+    display: flex;
+   width: 1000px;
+   height: 180px;
+   background-color: #ffffff;
+    margin-left: 230px;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    border-radius: 30px;
+    
+}
+.panel{
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+
+.panel h3{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+.panel:hover{
+    transition: 0.3s ease-in-out;
+    width: 250px;
+    height: 200px;
+}

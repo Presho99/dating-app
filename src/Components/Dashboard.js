@@ -1,6 +1,7 @@
 import React from 'react'
 import './Dashboard.css'
 import Header from "./Header"
+import Main from './Main'
 import Sidebar from './Sidebar'
 
 function Dashboard() {
@@ -11,6 +12,9 @@ function Dashboard() {
             </header>
             <div>
                 <Sidebar/>
+            </div>
+            <div>
+                <Main/>
             </div>
             
         </div>
