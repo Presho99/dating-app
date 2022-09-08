@@ -11,11 +11,11 @@ function Sidebar(){
             <div className="top">
             <h4>Main Menu</h4>
             <div className="top-details">
-            <p><FontAwesomeIcon icon={faChartSimple} style={{marginRight: "10px", color: "#585352"}}/>Dashboard</p>
-            <p><FontAwesomeIcon icon={faVenusDouble} style={{marginRight: "10px", color: "#585352"}}/>Matches</p>
-            <p><FontAwesomeIcon icon={faGlobe} style={{marginRight: "10px", color: "#585352"}}/>New & Online</p>
-            <p><FontAwesomeIcon icon={faMessage} style={{marginRight: "10px", color: "#585352"}}/>Chat Request</p>
-            <p><FontAwesomeIcon icon={faAddressBook} style={{marginRight: "10px", color: "#585352"}}/>Contact</p>
+            <p><FontAwesomeIcon icon={faChartSimple} style={{marginRight: "10px", color: "#9d2e3c"}}/>Dashboard</p>
+            <p><FontAwesomeIcon icon={faVenusDouble} style={{marginRight: "10px", color: "#9d2e3c"}}/>Matches</p>
+            <p><FontAwesomeIcon icon={faGlobe} style={{marginRight: "10px", color: "#9d2e3c"}}/>New & Online</p>
+            <p><FontAwesomeIcon icon={faMessage} style={{marginRight: "10px", color: "#9d2e3c"}}/>Chat Request</p>
+            <p><FontAwesomeIcon icon={faAddressBook} style={{marginRight: "10px", color: "#9d2e3c"}}/>Contact</p>
             </div>
             </div>
             
@@ -23,9 +23,9 @@ function Sidebar(){
             <div className="bottom">
             <h4>Support</h4>
             <div className="bottom-details">
-            <p><FontAwesomeIcon icon={faGear} style={{marginRight: "10px", color: "#585352"}}/>Settings</p>
-            <p><FontAwesomeIcon icon={faCircleInfo} style={{marginRight: "10px", color: "#585352"}}/>Help</p>
-            <p><FontAwesomeIcon icon={faRightFromBracket} style={{marginRight: "10px", color: "#585352"}}/>Logout</p>
+            <p><FontAwesomeIcon icon={faGear} style={{marginRight: "10px", color: "#9d2e3c"}}/>Settings</p>
+            <p><FontAwesomeIcon icon={faCircleInfo} style={{marginRight: "10px", color: "#9d2e3c"}}/>Help</p>
+            <p><FontAwesomeIcon icon={faRightFromBracket} style={{marginRight: "10px", color: "#9d2e3c"}}/>Logout</p>
 
             </div>
             </div>

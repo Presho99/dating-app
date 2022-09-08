@@ -2,9 +2,9 @@
     display: flex;
    width: 1000px;
    height: 180px;
-   background-color: #ffffff;
-    margin-left: 230px;
-    margin-top: 20px;
+   background-color: #142037;
+    margin-left: 215px;
+    margin-top: 12px;
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -34,4 +34,78 @@
     transition: 0.3s ease-in-out;
     width: 250px;
     height: 200px;
+}
+
+.box-two{
+    margin-left: 200px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #142037;
+    height: 400px;
+    width: 250px;
+    padding: 5px;
+    margin-top: 10px;
+    -webkit-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+}
+
+.box-two h3{
+    margin-bottom: 9px;
+    margin-top: 7px;
+    color: pink;
+}
+
+.chat{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    background-color: #142037;
+    margin-top: 5px;
+    -webkit-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    box-shadow: 1px 6px 11px -6px rgba(0, 0, 0, 0.43);
+    transition: 0.3s;
+   
+
+}
+
+.chat:hover{
+   
+  
+    transform: rotate(9deg);
+}
+
+.chat-time{
+    color: pink;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.chat-text{
+    
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -20px;
+    
+
+}
+
+.chat-text h4{
+    margin-bottom: -10px;
+    color: #9d2e3c;
+    
+}
+
+.chat-text p{
+    font-size: 14px;
+    width: 150px;
+    color: pink;
+}
+
+.chat-icon{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #9d2e3c;
 }

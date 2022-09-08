@@ -1,11 +1,11 @@
 .sidebar {
     height: 100vh;
-    width: 219px;
-    background-color: #fff;
+    width: 190px;
+    background-color: #142037;
     position: fixed;
     margin-top: -70px;
     margin-left: -10px;
-    padding: 15px 40px 20px 15px;
+    padding: 10px 20px 20px 10px;
     -webkit-box-shadow: -1px 2px 13px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 2px 13px -4px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 2px 13px -4px rgba(0, 0, 0, 0.75);
@@ -13,7 +13,7 @@
 }
 
 .sidebar h1 {
-    color: #585352;
+    color: #9d2e3c;
 }
 
 .top {
@@ -26,11 +26,11 @@
 
 .top p,
 .bottom p {
-    color: #585352;
+    color: pink;
 
     cursor: pointer;
 }
 
 .sidebar h4 {
-    color: #585352;
+    color: #9d2e3c;
 }
